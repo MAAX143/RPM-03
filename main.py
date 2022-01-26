@@ -8,7 +8,10 @@ def x3_1():
     pass #Кирилл
 
 def collatz(x):
-    if x == 1:
+    if x in sp:
+        print ('Значение уже есть в списке')
+        return input_valid()
+    while x != 1:
         sp.append(x)
         return x
     elif x % 2 == 0:
