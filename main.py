@@ -16,4 +16,4 @@ def x3_1():
 def collatz():
     pass #Макс
 
-x = input_valid()
+input_valid()
