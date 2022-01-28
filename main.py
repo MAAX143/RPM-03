@@ -1,5 +1,11 @@
 def input_valid():
-    pass #Роман
+    while True:
+        x = int(input("Введите переменную x = "))
+        if x > 0:
+            collatz(x)
+            break
+        print("Неверное число, попробуйте другое")
+    return x
 
 def x2():
     pass #Саня
@@ -11,3 +17,11 @@ def x3_1(x):
 
 def collatz():
     pass #Макс
+
+def x3_1():
+    pass #Кирилл
+
+def collatz():
+    pass #Макс
+
+input_valid()
