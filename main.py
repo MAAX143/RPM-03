@@ -18,10 +18,4 @@ def x3_1(x):
 def collatz():
     pass #Макс
 
-def x3_1():
-    pass #Кирилл
-
-def collatz():
-    pass #Макс
-
 input_valid()
